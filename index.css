@@ -1,0 +1,428 @@
+body{
+  scroll-behavior: smooth;
+  height: inherit;
+  
+}
+
+*{
+  top: 0;
+}
+div .img-thumbnail{
+    height: 150px;
+    width: 150px;
+}
+
+h1{
+  color: #dc3545;
+  font-weight: 800;
+}
+
+.title{
+  color: red;
+  margin-bottom: 120px;
+  animation: animation1 1.5s ease-out;
+}
+
+
+.go-top{
+  position: fixed;
+  right: 35px;
+  top: 450px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  border: none;
+}
+
+.go-top img{
+  height: 100%;
+  width: 100%;
+  
+}
+ 
+.main {
+   
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(img/Asset_204x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    padding: 10px;
+    user-select: none;
+    transition: 0.9s ease-out;
+    margin-bottom:75px;
+    border-radius: 3px;
+    color: #00acee;
+    flex-direction: row;
+}
+
+.main .title{
+    font-size:100px;
+    font-weight: bolder;
+    color:black;
+    animation: animation1 1.5s ease-out;
+    transition: 0.7s linear;
+}
+
+.main img{
+  height: 50%;
+  animation: animation1 1.5s ease-out;
+    transition: 1.2s ease-in;
+    overflow: hidden;
+    width: 25%;
+}
+
+
+span .bl{
+  color: #eee;
+}
+.service{
+    color: rgb(137, 30, 47);
+    margin: 10px auto;
+    text-align: center;
+    height: 10vh;
+    font-weight: 900;
+  
+}
+.partner{
+  height: 200px;
+  width: 100%;
+}
+.our-partner{
+  color: rgb(137, 30, 47);
+  margin: 10px auto;
+  text-align: center;
+  height: 10vh;
+  font-weight: 900;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+
+}
+
+.divider{
+  height: 5px;
+  width: 80px;
+  background-color:#6c757d;
+  animation: animation1 1s ease-out;
+  align-self: center;
+  margin: 0px auto;
+  margin-bottom: 28px;
+
+}
+
+span{
+  color: black;
+}
+.carte{
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  text-align: center;       
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  flex-wrap: wrap;
+}
+
+
+.hd{
+  display: none;
+}
+.carte .ser {
+  border-radius: 16px;
+  flex-shrink: 1;
+  width: 340px;
+  margin: 20px 25px 25px 25px;
+  flex-direction: column;
+  padding: 20px;
+  
+}
+
+.carte img{
+  width: 200px;
+  height: 200px;
+
+}
+.ser h3{
+ color:linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%); 
+}
+.ser p{
+  text-align: center;
+}
+
+.about-us{
+ width: 100%;
+ 
+}
+
+
+.text-img{
+  display: flex;
+  width:80%;
+  justify-content: space-around;
+  align-items: center; 
+  padding: 20px; 
+  margin:  20px auto;
+  border-radius: 20px;
+}
+.text-img p{
+ 
+  font-size: 20px;
+  width: 60%;
+ height: 90%;
+  text-align: center;
+  
+}
+.text-img img{
+  height: 420px;
+  width: 60%;
+}
+
+
+.ourteam{
+  width: 100%;
+  display: flex;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.member{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+.member img{
+  height:160px;
+  width:160px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+
+.event{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+.event img{
+  width: 150px;
+  border-radius: 100px;
+  height: 30%;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.event-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.event-card p{
+  font-size: x-large;
+}
+
+
+.foot {
+  width: 100%;
+  text-transform: capitalize;
+  display: flex;
+  
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+ background-color: #e9ecef;
+ 
+
+}
+/*my social media icon*/
+.parent {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+  border-radius: 50%;
+  margin: 0 2px;
+  border: none;
+}
+
+
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  border-color: transparent;
+}
+
+
+/*this media is using to hide element on mobile */
+@media(max-width:800px){
+  .hide{
+    display: none;
+    
+  }
+  .text-img p{
+    font-size: 15px;
+    
+  }
+  
+}
+@media(max-width:764px){
+  .hide1{
+    display: none;
+    
+  }
+  
+  .change{
+    flex-direction: column;
+  }
+  .apear{
+    display: block;
+    position: absolute;
+    top: 0;right: 0;
+    cursor: pointer;
+  }
+ 
+}
+
+@media(max-width:778px){
+  .with{
+    width: 100%;
+  }
+}
+
+ .slidebar{
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    color: #00acee;
+   display: block;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px auto;
+    z-index: 10;
+    
+  }
+
+  .ser a svg{
+    height: 40px;
+    width: 40px;
+  }
+
+   svg#Capa-1{
+    height: 40px!important;
+    width: 40px!important;
+  }
+/* this is the social media style */
+
+.socials-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-direction:column;
+    padding: 20px 40px;
+    background-color: transparent;
+    animation: animation2 1.5s ease-out;
+    margin-top: -100px;
+  }
+  .social {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgb(18, 8, 8);
+  }
+  .twitter:hover {
+    background: linear-gradient(45deg, #66757f, #00acee, #36daff, #dbedff);
+  }
+  .facebook:hover {
+    background: linear-gradient(45deg, #134ac0, #316ff6, #78a3ff);
+  }
+  .google-plus:hover {
+    background: linear-gradient(45deg, #872419, #db4a39, #ff7061);
+  }
+  .instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+  .social svg {
+    fill: rgb(14, 3, 3);
+    height: 20px;
+  }
+
+
+  /* the animation on the home section*/
+@keyframes animation1{
+  0%{
+      transform: translateX(-500px);
+      filter: blur(100px);
+  }
+  100%{
+      transform: translateX(0);
+  }
+} 
+
+@keyframes animation2{
+0%{
+    transform: translateX(500px);
+    filter: blur(100px);
+}
+100%{
+    transform: translateX(0);
+}
+} 

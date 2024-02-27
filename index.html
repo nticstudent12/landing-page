@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body >
+    
+  
+
+  <!--this is the nav bar code-->
+  <nav class="navbar bg-body-tertiary "   >
+    <div class="container-fluid">
+      <a class="navbar-brand font-weight-bold h5 text-dark" href="#"  >
+        <img src="img/Asset_204x.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top font-weight-bold  ">
+       <span></span>extTech<span style="color: red;"> Club</span>
+      </a>
+      <ul class="nav justify-content-center flex-" id ="ul">
+        
+        <li class="nav-item hide1" id="c">
+          <a class="nav-link h6  font-weight-bold text-dark" href="#our">Our Servicies</a>
+        </li>
+
+
+        <li class="nav-item  hide1" id="f">
+          <a class="nav-link h6  font-weight-bold text-dark" href="#event">The Event</a>
+        </li>
+        
+        <li class="nav-item hide1" id="d">
+          <a class="nav-link h6  font-weight-bold text-dark" href="#partners">Partners</a>
+        </li>
+        
+ 
+        <li class="nav-item hide1" id="e">
+          <a class="nav-link h6  font-weight-bold text-dark" href="#ourteam">Our Team</a>
+        </li>
+
+        <li class="nav-item hide1" id="b">
+          <a class="nav-link h6  font-weight-bold  text-dark" href="#about">About Us </a>
+        </li>
+      </ul>
+      
+        <div  class=" hd apear nav-item btnee hide" onclick=men()  >
+          <a  class="nav-link h6 apear font-weight-bold text-dark " ><svg  fill="none" height="48" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg"><path d="M22.5 24C22.5 23.1716 23.1716 22.5 24 22.5H40C40.8284 22.5 41.5 23.1716 41.5 24C41.5 24.8284 40.8284 25.5 40 25.5H24C23.1716 25.5 22.5 24.8284 22.5 24Z" fill="black"/><path d="M22.5 32C22.5 31.1716 23.1716 30.5 24 30.5H40C40.8284 30.5 41.5 31.1716 41.5 32C41.5 32.8284 40.8284 33.5 40 33.5H24C23.1716 33.5 22.5 32.8284 22.5 32Z" fill="black"/><path d="M24 38.5C23.1716 38.5 22.5 39.1716 22.5 40C22.5 40.8284 23.1716 41.5 24 41.5H40C40.8284 41.5 41.5 40.8284 41.5 40C41.5 39.1716 40.8284 38.5 40 38.5H24Z" fill="black"/></svg></a>
+        </div>
+    
+<!--hide the menu elemnt in mobile view using js-->
+     <script>
+      function men(){
+       let list = document.querySelector("#ul");
+       console.log('bkjdm');
+       list.classList.add("slidebar");
+      
+       let e2 = document.querySelector("#b");
+       e2.classList.remove('hide1');
+       let e3 = document.querySelector("#c");
+       e3.classList.remove('hide1');
+       let e4 = document.querySelector("#d");
+       e4.classList.remove('hide1');
+       let e5 = document.querySelector("#e");
+       e5.classList.remove("hide1");
+       let e6 = document.querySelector("#f");
+       e6.classList.remove("hide1");
+
+      }
+     </script>
+
+    </div>
+
+   
+  </nav>
+
+
+
+ 
+<div class="main " data-aos="fade-up"  >
+  <!--this is the social media code -->
+  <div class="socials-container " id="home"data-aos="fade-up">
+    <a href="#" class="social twitter">
+      <svg height="1em" viewBox="0 0 512 512">
+        <path
+          d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+        ></path>
+      </svg>
+    </a>
+  
+    <a href="#" class="social facebook"
+      ><svg height="1em" viewBox="0 0 320 512">
+        <path
+          d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+        ></path></svg>
+    </a>
+  
+    <a href="#" class="social google-plus">
+      <svg height="1em" viewBox="0 0 640 512">
+        <path
+          d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"
+        ></path>
+      </svg>
+    </a>
+  
+    <a href="#" class="social instagram"
+      ><svg height="1em" viewBox="0 0 448 512">
+        <path
+          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+        ></path></svg>
+    </a>
+  </div>
+
+  <!--here we have our logo and the text  -->
+  <p class="title" data-aos="fade-up"> Join<span ></span><span style="margin-bottom: 60px;"">  Us!</span></p>
+  <img src="img/Asset 3@4x.png" class="hide" alt="" data-aos="fade-up">
+  
+
+  <!--the end of the maain section-->
+
+</div>
+ 
+
+
+
+
+
+<!--this div is for servcise-->
+<div class="service " id="our" data-aos="fade-up">
+  <h1 >Our Srvices</h1>
+  <div class="divider "></div>
+</div>
+<br>
+
+<div class="carte ">
+ 
+  <div class="ser shadow " data-aos="fade-up">
+    <a >
+    <?xml version="1.0" ?><svg viewBox="0 0 22.516 22.576" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 2" id="Layer_2"><g data-name="Layer 1" id="Layer_1-2"><path d="M12.6,21.891H11.571V.684H12.6A.342.342,0,0,0,12.6,0H11.229c-14.976.62-14.969,21.961,0,22.576H12.6A.343.343,0,0,0,12.6,21.891ZM10.887,11.63v3.482a14.042,14.042,0,0,0-4.075.758,11.109,11.109,0,0,1-1.094-4.24Zm-5.169-.684A11.114,11.114,0,0,1,6.812,6.705a14.042,14.042,0,0,0,4.075.758v3.483ZM10.887,1.12V6.778a13.282,13.282,0,0,1-3.773-.691A20.326,20.326,0,0,1,10.887,1.12Zm-.6-.382a20.306,20.306,0,0,0-3.84,5.111A18.845,18.845,0,0,1,3.3,4.284,10.581,10.581,0,0,1,10.291.738ZM2.851,4.813a19.71,19.71,0,0,0,3.3,1.655,11.82,11.82,0,0,0-1.121,4.478H.634A10.523,10.523,0,0,1,2.851,4.813ZM5.033,11.63a11.82,11.82,0,0,0,1.121,4.478,19.685,19.685,0,0,0-3.3,1.655A10.531,10.531,0,0,1,.634,11.63ZM3.3,18.291a18.96,18.96,0,0,1,3.155-1.565,20.315,20.315,0,0,0,3.84,5.112A10.582,10.582,0,0,1,3.3,18.291Zm3.818-1.8a13.317,13.317,0,0,1,3.773-.691v5.658A20.305,20.305,0,0,1,7.114,16.488Zm13.234-14.2a.348.348,0,0,1-.242-.589A.341.341,0,1,1,20.348,2.283Zm-1.825,0a.342.342,0,0,1,0-.684A.342.342,0,0,1,18.523,2.283Zm-1.824,0a.349.349,0,0,1-.241-.589A.342.342,0,1,1,16.7,2.283ZM22.516.342V22.233a.343.343,0,0,1-.342.343H14.422a.343.343,0,0,1,0-.685h7.41V3.877H13.054a.342.342,0,1,1,0-.684h8.778V.684h-7.41a.342.342,0,0,1,0-.684h7.752A.342.342,0,0,1,22.516.342Zm-3.42,10.6V7.069h-6.04a.342.342,0,0,1,0-.684h6.382a.342.342,0,0,1,.342.342v4.561a.342.342,0,0,1-.342.342H13.056a.342.342,0,0,1,0-.684Zm-6.383,3.079a.343.343,0,0,1,.343-.342h6.382a.342.342,0,0,1,0,.684H13.056A.343.343,0,0,1,12.713,14.025Zm0,2.736a.342.342,0,0,1,.343-.341h6.382a.342.342,0,1,1,0,.683H13.056A.342.342,0,0,1,12.713,16.761Zm4.444,3.079h-4.1a.342.342,0,0,1,0-.683h4.1A.342.342,0,0,1,17.157,19.84Z" id="domain"/></g></g></svg>
+    </a>
+    <h3>Web Development </h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, soluta voluptate! Iste illo pariatur perspiciatis deserunt velit, repellendus inventore et, dolorem minima, enim labore.</p>
+  </div>
+
+  <div class="ser shadow " data-aos="fade-up">
+    <a><svg viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="G. Design" id="G._Design"><rect height="17.5561" transform="translate(-45.9754 32.5056) rotate(-45)" width="2.95" x="14.775" y="62.9719"/><rect height="7.7782" transform="translate(-19.9073 47.3535) rotate(-45)" width="70.8322" x="11.7909" y="43.8179"/><rect height="7.7782" transform="translate(-17.0434 40.4394) rotate(-45)" width="70.8322" x="4.8769" y="36.9039"/><path d="M82.4287,17.9854A8.7781,8.7781,0,1,0,70.0146,5.5713L67.5,8.0859,79.9141,20.5Z"/><rect height="17.5561" transform="translate(9.0246 55.2873) rotate(-45)" width="2.95" x="69.775" y="7.9719"/><path d="M3.0454,83.7017a1,1,0,0,0,1.2529,1.2529l15.4226-4.82L7.865,68.2791Z"/><path d="M9.793,22.793a1,1,0,0,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,0,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,0,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,0,1,1.414,1.414l-4.71,4.71L25.17,47.59l17-17L17.59,6,1.29,22.29a1.008,1.008,0,0,0,0,1.42l3.7929,3.793Z"/><path d="M47.59,25.17,23.71,1.29a1.008,1.008,0,0,0-1.42,0L19,4.59,43.59,29.17Z"/><path d="M86.71,64.29,62.83,40.41l-4,4L83.41,69l3.3-3.29A1.008,1.008,0,0,0,86.71,64.29Z"/><path d="M40.41,62.83l3.6729,3.673,4.71-4.71a1,1,0,0,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,1,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,1,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,1,1,1.414,1.414l-4.71,4.71L64.29,86.71a1.0141,1.0141,0,0,0,1.42,0L82,70.41,57.41,45.83Z"/></g></svg></a>
+    <h3> Graphic deseign </h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum officiis unde natus sit voluptate repellat culpa placeat laborum neque, a, amet reprehenderit at nemo.</p>
+  </div>
+
+  <div class="ser shadow " data-aos="fade-up">
+    <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new -258.109 -7 1024 1024" height="40px" version="1.1" viewBox="-258.109 -7 1024 1024" width="40px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs/><path d="M332.391,2.5h0.5v6.81c-0.32-0.35-0.5-0.81-0.5-1.31V2.5z" fill="#464644"/><path d="M416.221,2.5V8c0,0.67-0.33,1.26-0.83,1.62V2.5H416.221z" fill="#464644"/><path d="M4.28,337.67V941c0,40.869,33.13,74,74,74h367.5c40.87,0,74-33.131,74-74V78.5c0-40.87-33.13-74-74-74H431V2  c0-1.1-0.89-2-2-2h-79.83c-1.1,0-2,0.9-2,2v2.5H78.28c-40.87,0-74,33.13-74,74v15.58 M4.28,290.5v-0.42H2c-1.1,0-2,0.9-2,2v43.59  c0,1.1,0.9,2,2,2h2.28v-0.42 M4.28,237.17v52.91 M4.28,200.41v-0.33H2c-1.1,0-2,0.7-2,1.56v33.97c0,0.86,0.9,1.56,2,1.56h2.28v-0.33   M4.28,141.67v58.41 M4.28,94.5v-0.42H2c-1.1,0-2,0.9-2,2v43.59c0,1.1,0.9,2,2,2h2.28v-0.42 M213.154,92.713  c0-5.924,5.059-10.726,11.301-10.726h75.148c6.24,0,11.301,4.802,11.301,10.726v1.341c0,5.924-5.061,10.726-11.301,10.726h-75.148  c-6.242,0-11.301-4.802-11.301-10.726V92.713z M174.363,81.438c6.598,0,11.945,5.348,11.945,11.946s-5.347,11.946-11.945,11.946  s-11.946-5.348-11.946-11.946S167.765,81.438,174.363,81.438z M262.029,971.25c-26.74,0-48.417-21.678-48.417-48.416  c0-26.74,21.677-48.418,48.417-48.418c26.739,0,48.417,21.678,48.417,48.418C310.446,949.573,288.769,971.25,262.029,971.25z   M38.029,179.333c0-3.313,2.686-6,6-6h436c3.313,0,6,2.687,6,6V836c0,3.313-2.687,6-6,6h-436c-3.314,0-6-2.688-6-6" fill="#212121"/></svg>
+    <h3>Mobile Development </h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed impedit similique dolorem minus praesentium, laboriosam quos. Vel nulla dolorem cum quisquam nisi sunt. Nobis.</p>
+  </div>
+
+  
+</div>
+
+<!--event -->
+
+<h1 data-aos="fade-up" style="text-align: center;">the event </h1>
+<div class="divider " data-aos="fade-up"></div>
+
+<div class="event change">
+  <div class="event-card" data-aos="zoom-in"><img src="img/event name.jpg" alt="">
+    <p>event name</p>
+    <p>event date</p>
+  </div>
+ 
+  <div class="event-card" data-aos="zoom-in"><img src="img/event name.jpg" alt="">
+    <p>event name</p>
+    <p>A/M/J</p>
+  </div>
+ 
+  <div class="event-card" data-aos="zoom-in"><img src="img/event name.jpg" alt="">
+    <p>event name</p>
+    <p>event date</p>
+  </div>
+ 
+</div>
+  <!--this is the about section-->
+
+<div class="about-us " id="about"  >
+  
+  <h1 style="text-align: center; " data-aos="fade-up">About Us</h1>
+  <div class="divider " data-aos="fade-up"></div>
+  <br>
+  <div class="text-img shadow" data-aos="fade-left">
+    <p > We're a community of innovators,dreamers, creators <span>Discover</span> our direction and Vision that reshape the future Join us to  <span>Explore</span> endless possibilities where innovition and technology come tooghther effortlessy D'ont just <span>Dream</span> about the future</p>
+    <img class="hide" src="img/Chat bot-bro.png" alt="">
+  </div>
+   
+</div>
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+<!--the partners div-->
+<div class="partners">
+
+  <div class="our-partner" id="partners" >
+  <h1 data-aos="fade-up">Our partners</h1>
+  <div class="divider " data-aos="fade-up"></div>
+  </div>
+ 
+  <div class="carte" >
+    <div class="ser " data-aos="fade-left"><img src="partners img/univ constantine2min-3.jpg" alt=""></div>
+    <div class="ser " data-aos="fade-right"><img src="partners img/LA-DASCS.webp" alt=""></div>
+    <div class="ser " data-aos="fade-left"><img  id="" src="partners img/Linkedln_Twitter_GDG_Logo.webp" alt=""></div>
+    <div class="ser " data-aos="fade-right"><img src="partners img/Logo-NTIC (1).webp" alt=""></div>
+    <div class="ser " data-aos="fade-left"><img src="partners img/WhatsApp Image 2023-11-18 at 23.51.39.webp" alt=""></div>
+    <div class="ser " data-aos="fade-right"><img class="" src="partners img/mozia.png" alt=""></div>
+    
+
+  </div>
+
+</div>
+
+
+ 
+
+<!--our team sectionn-->
+
+
+<h1 data-aos="fade-up" style="text-align: center;">Our Team</h1>
+<div class="divider " data-aos="fade-up"></div>
+
+
+<div class="ourteam" id="ourteam">
+
+  <div class="member" data-aos="fade">
+    <img src="avatar/avatar_1.jpg" alt="">
+    <h4>Your name </h4>
+    <p>Leader</p>
+  </div>
+
+ <div class="member"data-aos="fade">
+    <img src="avatar/avatar_2.jpg" alt="">
+    <h4>Your name </h4>
+    <p>CO-Leadder</p>
+  </div>
+
+  <div class="member"data-aos="fade">
+    <img src="avatar/avatar_3.jpg" alt="">
+    <h4>Your name </h4>
+    <p>Project-Team </p>
+  </div>
+
+  <div class="member"data-aos="fade">
+    <img src="avatar/avatar_1.jpg" alt="">
+    <h4>Your name </h4>
+    <p>Designer</p>
+  </div>
+
+  <div class="member"data-aos="fade">
+    <img src="avatar/avatar_2.jpg" alt="">
+    <h4>Your name </h4>
+    <p>Multimedia-Team</p>
+  </div>
+
+ <div class="member" data-aos="fade">
+    <img src="avatar/avatar_3.jpg" alt="">
+    <h4>Your name </h4>
+    <p>Orgnizer</p>
+  </div>
+
+  <div class="member" data-aos="fade">
+    <img src="avatar/avatar_1.jpg" alt="">
+    <h4>Your name </h4>
+    <p>Project-Team </p>
+  </div>
+
+  <div class="member"data-aos="fade">
+    <img src="avatar/avatar_2.jpg" alt="">
+    <h4>Your name </h4>
+    <p>Designer</p>
+  </div>
+
+  <div class="member"data-aos="fade">
+    <img src="avatar/avatar_3.jpg" alt="">
+    <h4>Your name </h4>
+    <p>Designer</p>
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+ 
+<!--the footer-->
+
+<div class="foot shadow">
+  
+ deseigned by abdel djalil
+  <div class="parent">
+    <!--my social media acount -->
+  <a href="">
+    <div class="child child-1">
+      <button class="button btn-1" >
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#1e90ff"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+    </button>
+    </div> 
+  </a>
+
+  <a href="https://www.instagram.com/_abdelldjalil/">
+    <div class="child child-2" >
+      <button class="button btn-2" >
+    <svg  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#ff00ff"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></button>
+    </div>
+  </a>
+
+  <a href="https://www.facebook.com/abdeldjalil.barca.52/">
+    <div class="child child-4">
+      <button class="button btn-4">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512" fill="#4267B2"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></button>
+    </div>
+    </div>
+  </a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--the animation library for sections-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+</body>
+</html>
